@@ -1,6 +1,10 @@
 ### PowerShell Profile Refactor
 ### Version 1.03 - Refactored
 
+# ENABLE STARSHIP!
+$ENV:STARSHIP_CONFIG = "$HOME\.config\starship.toml"
+$ENV:STARSHIP_CACHE = "$HOME\AppData\Local\Temp"
+
 $debug = $false
 
 if ($debug) {
